@@ -1,0 +1,144 @@
+
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .user_option {
+        flex-direction: column;
+    }
+
+    .custom_nav-container .nav_search-btn {
+        background-position: center;
+        margin-top: 10px;
+    }
+
+    .user_option a {
+        margin-bottom: 10px;
+    }
+
+    .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .info_section .col-md-3 {
+        text-align: center;
+    }
+
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+        margin-bottom: 35px;
+    }
+
+    .who_section .detail-box {
+        margin-left: 15px;
+        margin-top: 35px;
+    }
+
+    .work_section .work_container .box.b-1,
+    .work_section .work_container .box.b-2,
+    .work_section .work_container .box.b-3,
+    .work_section .work_container .box.b-4 {
+        width: 100%;
+    }
+
+    .info_section .col-md-3>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_section .info_form .social_box {
+        justify-content: center;
+    }
+
+    .info_section .info_form .social_box a {
+        margin: 0 10px;
+    }
+
+    .footer_section p {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_section .detail-box h1 {
+        font-size: 3.5rem;
+    }
+
+    .do_section .do_container .arrow_bg::before {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+    .slider_section .detail-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        /* Your existing CSS styles here */
+
+        /* Adjust styles for the calendar and list containers as needed */
+        .calendar-container,
+        .list-container {
+            margin: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your existing HTML content here -->
+
+    <!-- Calendar Section -->
+    <div class="calendar-container">
+        <!-- Replace the URL with the link to your calendar -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=your-calendar-link" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!-- List Section -->
+    <div class="list-container">
+        <h2>Your To-Do List</h2>
+        <ul>
+            <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+            <!-- Add more list items as needed -->
+        </ul>
+    </div>
+
+    <!-- Your existing HTML content here -->
+
+</body>
+</html>
